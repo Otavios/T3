@@ -1,0 +1,4 @@
+// Linha 4: erro sintatico proximo a &
+
+S = A ^ B // xor
+C = A A & B // and

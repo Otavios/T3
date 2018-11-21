@@ -1,0 +1,7 @@
+// Erro semântico na linha 3: saída C não possui valor atribuído.
+
+circuit somador(A, B) : S, C{
+    S = A | B
+}
+
+teste = new somador(X, Y)

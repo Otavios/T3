@@ -1,0 +1,7 @@
+// Erro semântico na linha 7: número de variáveis incompatível para circuito meuCircuito.
+
+circuit meuCircuito(A, B, C) : S {
+    S = (A | B) & (B | C)
+}
+
+teste = new meuCircuito(X, Y)

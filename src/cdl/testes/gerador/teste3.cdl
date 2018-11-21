@@ -1,0 +1,7 @@
+x = a & b
+y = a & b
+z = x & ~y
+
+x1 = a & b
+y1 = a & b
+z1 = x & ~y

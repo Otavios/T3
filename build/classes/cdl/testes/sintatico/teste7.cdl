@@ -1,0 +1,12 @@
+// Linha 10: erro sintatico proximo a )
+
+circuit meio_somador(A, B) : S, C{
+    S = A ^ B
+    C = A & B
+}
+
+s1 = new meio_somador(A, B)
+C = A | B
+s2 = new meio_somador(C, D))
+
+R = ~s1.S & s2.S

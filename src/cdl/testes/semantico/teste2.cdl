@@ -1,0 +1,6 @@
+// Erro semântico na linha 4: variável A é de entrada e não pode receber uma atribuição.
+
+circuit circuito_legal(A, B) : C {
+    A = ~B
+    C = A
+}

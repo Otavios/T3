@@ -1,0 +1,10 @@
+circuit meuCircuito (A, B) : C, D {
+    C = A & B
+    D = A ^ B
+}
+
+circuito1 = new meuCircuito(X, Y)
+
+K = circuito1.C | Z
+
+circuito2 = new meuCircuito(K, X)

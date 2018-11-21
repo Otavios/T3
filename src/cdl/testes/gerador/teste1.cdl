@@ -1,0 +1,11 @@
+S = A | B
+K = A & B
+J = S & K
+Q = J & K & S
+
+s = ~a ^ b
+x = ~s
+
+c = a & b
+
+test = s ^ c ^ R ^ Q

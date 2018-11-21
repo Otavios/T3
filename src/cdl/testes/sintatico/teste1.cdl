@@ -1,0 +1,4 @@
+// Linha 3: @ - simbolo nao identificado
+
+S = A ^ @B // xor
+C = A & B // and

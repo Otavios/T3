@@ -1,0 +1,7 @@
+// Erro semântico na linha 4: variavel C não existe como entrada do circuito.
+
+circuit meuCircuito(A, B) : S {
+    S = (A | B) & C
+}
+
+teste = new meuCircuito(X, Y)

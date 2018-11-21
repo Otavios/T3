@@ -1,0 +1,7 @@
+// Erro semântico na linha 7: circuito do tipo somador não foi criado previamente.
+
+circuit teste(A, B) : Z {
+    Z = ~(A & B)
+}
+
+meuCircuito = new somador(A, B, C)
